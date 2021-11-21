@@ -1,0 +1,24 @@
+body{
+    background-image: url("comet.jpg");
+    background: linear-gradient(to right, #1b1a1b, #d9c7da);
+    font-family: Facile Sans;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.box h1{
+    width: 400px;
+    height: 400px;
+    background-image:
+     conic-gradient(from -30deg at 45% 58%, red 0deg, red 90deg, blue 90deg, blue 180deg, green 180deg, green 270deg, yellow 270deg,yellow 360deg);
+    font-size: 30em; 
+    margin-top: 20px;
+    padding-bottom: 60px;
+    font-family: Facile sans;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
